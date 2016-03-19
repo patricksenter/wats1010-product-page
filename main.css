@@ -2,7 +2,163 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  font-family: sans-serif;
 }
+
+/* START NAV */
+
+navbar {
+  background-size: 10%;
+  width: 100%;
+  position: fixed;
+  float: top;
+  background: #000;
+  margin: -10px;
+  padding: 10px;
+  height: 50px;
+}
+
+navbar h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20pt;
+  text-transform: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+nav ul {
+  font-family: 'Raleway', sans-serif;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #c0c0c0;
+}
+
+/* END NAV */
+
+/* BEGIN HEADER */
+
+header {
+  background-image: url("apiheader.jpg");
+  background-size: 100%;
+  background-repeat: no;
+  width: 100%;
+  margin: -10px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 1000px;
+}
+
+header h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 75pt;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+}
+
+header p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  text-transform: none;
+  letter-spacing: 2px;
+  color: black;
+}
+
+/* END HEADER */
+
+/* START FEATURES */
+
+#features {
+  width: 100%;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, black , grey); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black, grey); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, black, grey); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black, grey); /* Standard syntax */
+  margin: -10px;
+  padding: 10px;
+  padding-top: 100px;
+  height: 600px;
+}
+
+#features h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30pt;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#features p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  text-transform: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* END FEATURES */
+
+/* BEGIN TESTIMONIALS */
+
+#testimonials { 
+  width: 100%;
+  background: white;
+  margin: -10px;
+  padding: 10px;
+  height: 600px;
+}
+
+#testimonials h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30pt;
+  text-transform: none;
+  letter-spacing: 2px;
+  color: black;
+}
+
+#testimonials p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  text-transform: none;
+  letter-spacing: 2px;
+  line-height: -1px;
+  color: black;
+}
+
+.quotes {
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.info {
+  width: 50%;
+  float: right;
+  padding-left: 20px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+/* END TESTIMONIALS */
